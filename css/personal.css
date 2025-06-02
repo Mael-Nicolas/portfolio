@@ -1,3 +1,15 @@
 html {
     scroll-behavior: smooth;
 }
+
+#contact label,
+#contact input,
+#contact textarea,
+#contact select {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+#contact {
+    margin-left: 2%;
+}
