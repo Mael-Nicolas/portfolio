@@ -13,3 +13,30 @@ html {
 #contact {
     margin-left: 2%;
 }
+
+.rect-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-top: 20px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 3px;
+    margin-left: 18px;
+}
+
+.rect-button i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.rect-button:hover {
+    background-color: #BD5D38FF;
+    text-decoration: none;
+    color: white;
+}
